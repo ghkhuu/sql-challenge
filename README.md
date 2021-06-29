@@ -10,9 +10,9 @@ files, I will try to set up a Database and establish an ETL pipeline for analysi
 Using the online tool at [Quick Database Diagram](http://www.quickdatabasediagrams.com), I generated an ERD showcasing
 relationships among the entities through primary and foreign keys, as well as different table constraints.
 
+_Figure 1: ERD for the database schema containing 6 tables_
 ![alt text](https://github.com/ghkhuu/sql-challenge/blob/master/ERD%20for%20database.png)
 
-_ERD for the database schema containing 6 tables_
 
 ### Data Engineering
 
@@ -43,18 +43,20 @@ Queries of the following 8 questions can be found in the "SQL_statement" file ab
 
 #### SQL Alchemy
 
-After initial analysis, the data is then brought into Jupyter notebook with SQLalchemy to be transformed and visualized.
-Figure 1 shows that the majority of employees at Pewlett Hackard earns between $40k and 50K annually.
+After initial analysis, the data is then brought into [this Jupyter notebook](https://github.com/ghkhuu/sql-challenge/blob/master/DataAnalysisandVisualization.ipynb) 
+with SQLalchemy to be transformed and visualized. Figure 1 shows that the majority of employees at Pewlett Hackard earns
+between $40k and 50K annually.
 
+_Figure 2: Histogram of salary ranges_
 ![alt text](https://github.com/ghkhuu/sql-challenge/blob/master/histogram.jpg)
 
-_Figure 1: Histogram of salary ranges_
+
 
 In another aspect, figure 2 reveals Sales department has the highest average salary, followed by Marketing and Finance.
 Employees with title as Staff or Senior Staff are generally paid more than other job titles, and there are very little
 difference in salary across the gender line.
 
+_Figure 3: Average salaries among different groups of employees_
 ![alt text](https://github.com/ghkhuu/sql-challenge/blob/master/average_salaries.jpg)
 
-_Figure 2: Average salaries among different groups of employees_
 
