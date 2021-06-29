@@ -1,9 +1,9 @@
 # Exploring Pewlett Hackard employment data
-###A Data Analysis challenge from [deepenrp/sql-challenge](https://github.com/deepenrp/sql-challenge)
+A Data Analysis challenge by [deepenrp](https://github.com/deepenrp/sql-challenge)
 
 ## Background
 
-The project revolves around six .csv files as the remainder of the employees data from 1980s to 1990s. Using these 
+The project revolves around six .csv files as the remainder of the employee data from 1980s to 1990s. Using these 
 files, I will try to set up a Database and establish an ETL pipeline for analysis and visualization.
 
 ### Data Modeling
