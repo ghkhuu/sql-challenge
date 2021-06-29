@@ -1,11 +1,16 @@
-# sql-challenge
+# Exploring Pewlett Hackard employment data
+###A Data Analysis challenge from [deepenrp/sql-challenge](https://github.com/deepenrp/sql-challenge)
 
 ## Background
 
-It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
+The project revolves around six .csv files as the remainder of the employees data from 1980s to 1990s. Using these 
+files, I will try to set up a Database and establish an ETL pipeline for analysis and visualization.
 
 ### Data Modeling
-Inspect the CSVs and sketch out an ERD of the tables. Used a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+Using the online tool at [Quick Database Diagram](http://www.quickdatabasediagrams.com), I generated an ERD showcasing
+relationships among the entities through primary and foreign keys, as well as different table constraints.
+
+![alt text](https://github.com/ghkhuu/sql-challenge/blob/master/ERD%20for%20database.png "ERD diagram")
 
 ### Data Engineering
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
